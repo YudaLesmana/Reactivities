@@ -51,7 +51,7 @@ namespace Application.Photos
 
                 if (success) return Result<Unit>.Success(Unit.Value);
 
-                return Result<Unit>.Failure("Problem deleting photo from Cloudinary");
+                return Result<Unit>.Failure("Problem deleting photo from API");
             }
         }
     }

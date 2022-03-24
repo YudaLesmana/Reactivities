@@ -34,4 +34,4 @@ export default function PhotoWidgetDropzone({setFiles}: Props) {
         <Header content='Drop image here' /> 
     </div>
     )
-    }
+}

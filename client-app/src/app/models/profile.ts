@@ -1,10 +1,10 @@
 import { User } from "./user";
 
 export interface Profile {
-    username : string;
-    displayName : string;
-    image? : string;
-    bio? : string;
+    username: string;
+    displayName: string;
+    image?: string;
+    bio?: string;
     followersCount: number;
     followingCount: number;
     following: boolean;
@@ -23,4 +23,11 @@ export interface Photo {
     id: string;
     url: string;
     isMain: boolean;
+}
+
+export interface UserActivity {
+    id: string;
+    title: string;
+    category: string;
+    date: Date;
 }
